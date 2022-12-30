@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/**** BODY BACKGROUND ****/
+
+.background_text {
+    color: #dadada;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+#container {
+    position: relative;
+ }
+ 
+ #background {
+    /* max-height: 2880px; */
+    position: absolute;
+    top: -150;
+    left: 0;
+    bottom: -150;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+ }
+
+/****** HEADER ******/
+
+.header {
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#span-header {
+    float: right;
+    padding: 10px 50px 0px 0px;
+    color: #ffffff;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.palindrome-span {
+    color: rgb(255,0,0);
+}
+
+.header2 {
+    text-align: right;
+    padding: 50px 50px 50px 0px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+ /**** PALINDROME BODY ******/
+
+ #palindrome-body {
+    max-width: 800px;
+    max-height: 800px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.512);
+    margin: 0px auto;
+    margin-top: 70px;
+    padding: 100px 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.297);
+}
+
+/****** TYPE AND SUBMIT *********/
+
+#user-input {
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 0px;
+    padding: 15px 15px;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+#user-submit {
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 0px;
+    padding: 15px 15px;
+    width: 450px;
+    background-color: rgb(255,0,0);
+}
+
+#user-submit:hover {
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 0px;
+    padding: 15px 15px;
+    width: 450px;
+    background-color: #000000;
+    transition: background 0.5s;
+}
+
+
+/***** PALINDROME CHECK RESULT ********/
+
+#palindromeornot {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #000000;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#palindrome-result {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    color: #ff0088;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#palindrome-not {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #ba3500;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#palindrome-yes {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: #00c01a;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+/**** FOOTER *****/
+
+footer {
+    padding: 150px 0px;
+}
+
+.footerParagraph {
+    color: #ffffff;
+    font-family: Andale Mono, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 50px 0px 50px 0px;
+    background-color: #000000;
+}
