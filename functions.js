@@ -15,7 +15,6 @@ function ifIsPalindrome(user_value){
         result.textContent = "is not a palindrome"
         document.querySelector("#palindrome-not").appendChild(result)
     }
-
 }
 
 function clearFiled(){
