@@ -16,12 +16,4 @@ form.addEventListener("submit", function(event){
     isPalindrome(my_value)
     ifIsPalindrome(my_value)
     
-
 })
-
-
-
-
-
-
-
